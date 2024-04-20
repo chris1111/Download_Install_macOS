@@ -6,7 +6,7 @@
 
 Download ➤ [Release](https://github.com/chris1111/Download_Install_macOS/releases)
 
-Download ➤ [Artifacts](https://github.com/chris1111/Download_Install_macOS/actions/runs/8767051697)
+Download ➤ [Artifacts](https://github.com/chris1111/Download_Install_macOS/actions/workflows/Build.yml)
 
 <img width="600" alt="1" src="Screenshot/Screenshot.png">
 
