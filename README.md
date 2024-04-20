@@ -11,6 +11,15 @@ Download ➤ [Artifacts](https://github.com/chris1111/Download_Install_macOS/act
 
 <img width="600" alt="1" src="Screenshot/Screenshot.png">
 
+Choice [28] = 10.13.5 ➢ 17F66a ⬇︎
+
+<img width="600" alt="1" src="Screenshot/Screenshot28.png">
+
+Choice [1] = 14.5 ➢ 23F5059e ⬇︎
+
+<img width="600" alt="1" src="Screenshot/Screenshot1.png">
+
+
 - [x] `Building from Xcode:`
 
 #### Clone the repository
