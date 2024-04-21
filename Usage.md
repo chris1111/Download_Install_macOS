@@ -14,6 +14,6 @@
 
 #### Usage Video Create Install Media macOS 14
 ### `Gatekeeper` then `SIP Security` must be disabled to create macOS Install drive.
-Download Script ➤ [Create Install Media](https://github.com/chris1111/Download_Install_macOS/releases/download/V1/Create.Install.Media.zip) 
+Download Script ➤ [Create Install Media](https://github.com/chris1111/Download_Install_macOS/releases/download/V1/USBCreate.Install.Media.zip)
 
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/218287389-96444e32-0bf1-4886-9632-ccd2e1f3614d.png)](https://youtu.be/Em34KqSLapk)
