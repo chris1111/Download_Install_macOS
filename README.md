@@ -9,7 +9,7 @@
 
 Download ➤ [Release](https://github.com/chris1111/Download_Install_macOS/releases)
 
-Download Nightly ➤ [Artifacts](https://nightly.link/chris1111/Download_Install_macOS/workflows/Build/main/Download_Install_macOS036d218.zip)
+Download ➤[Artifacts](https://github.com/chris1111/Download_Install_macOS/actions/workflows/Build.yml)
 
 <img width="600" alt="1" src="Screenshot/Screenshot.png">
 
