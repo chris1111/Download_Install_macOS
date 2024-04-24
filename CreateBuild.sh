@@ -11,6 +11,7 @@ if [[ -f "$SHC_VERSIONS" ]]; then
    rm -rf ./build
    mv ./Source_Script/Download_Install_macOS.txt ./Source_Script/Download_Install_macOS.sh
    Sleep 2
+   chmod 755 ./"Create Install Media.command"
    chmod 755 ./Source_Script/Download_Install_macOS.sh
    chmod 755 ./Source_Script/SHC-3.8.9b
    ./Source_Script/SHC-3.8.9b -v -r -T -f ./Source_Script/Download_Install_macOS.sh
