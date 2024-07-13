@@ -12,7 +12,7 @@ Welcome Create Install Media
 to create macOS Install drive.
 --------------------------
 You can create a bootable USB key 
-from macOS High Sierra 10.13 to macOS Sonoma 14
+from macOS High Sierra 10.13 to macOS Sequoia 15
 		
 Format your USB Drive with Disk Utility 
 in the format Mac OS Extended (Journaled) 
