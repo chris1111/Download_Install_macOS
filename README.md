@@ -8,7 +8,7 @@
 
 ### 🎦 How to use ➤ [Usage Video](https://github.com/chris1111/Download_Install_macOS/blob/main/Usage.md)
 
-Download ➤ [Release](https://github.com/chris1111/Download_Install_macOS/releases)
+Download ➤ [Release](https://github.com/chris1111/Download_Install_macOS/releases/tag/V3)
 
 Download ➤ [Artifacts](https://github.com/chris1111/Download_Install_macOS/actions/workflows/Build.yml)
 
