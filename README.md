@@ -10,7 +10,6 @@
 
 Download ➤ [Release](https://github.com/chris1111/Download_Install_macOS/releases/tag/V3)
 
-Download ➤ [Artifacts](https://github.com/chris1111/Download_Install_macOS/actions/workflows/Build.yml)
 
 <img width="600" alt="1" src="Screenshot/Screenshot.png">
 
@@ -25,13 +24,8 @@ Choice [1] = 14.5 ➢ 23F5059e ⬇︎
 
 - [x] `Building from Xcode:`
 
-#### Clone the repository
+#### Build repository
 ```bash
-git clone https://github.com/chris1111/Download_Install_macOS.git
-cd $HOME/Download_Install_macOS
+git clone https://github.com/chris1111/Download_Install_macOS.git && cd $HOME/Download_Install_macOS && make
 ```
 
-#### Build
-```bash
-make
-```
