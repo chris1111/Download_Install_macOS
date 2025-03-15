@@ -216,8 +216,7 @@ done
     Imagepath=`/usr/bin/osascript << SourceFolder
     set SourceFolder to "/Private/tmp/Install_macOS/"
     set DestinationFolder to POSIX path of (path to home folder from user domain)
-    display dialog "
-    Install_macOS will be saved in /HOME directory in 1 minute" with icon 2 buttons {"Save"} default button {"Save"} giving up after 60
+    display dialog "Install_macOS will be saved in /HOME directory in 1 minute" with icon 2 buttons {"Save"} default button {"Save"} giving up after 60
     set DestinationFolder to DestinationFolder & "Install-macOS " & ((current date) as text)
     do shell script "mv " & quoted form of SourceFolder & space & quoted form of DestinationFolder
     delay 2
