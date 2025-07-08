@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Download_Install_macOS Copyright (c) 2024 chris1111 All Right Reserved.
+# Download_Install_macOS Copyright (c) 2024, 2025 chris1111 All Right Reserved.
 # Base on heinthanth · he/him work
 
 set -e
@@ -17,9 +17,9 @@ printf "\n\e[35m
 printf '\e[8;47;82t'
 
 # Download Install macOS
-# RELEASE AND BETA_Sequoia
+# RELEASE AND BETA_Tahoe
 
-CATALOG_URL="https://swscan.apple.com/content/catalogs/others/index-15seed-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"
+CATALOG_URL="https://swscan.apple.com/content/catalogs/others/index-26seed-26-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"
 
 echo " "
 # DOWNLOADING CATALOG
@@ -111,7 +111,9 @@ MAJOR_VERSION=$(echo $SELECTED_BUILD_INFO | cut -d, -f1 | cut -d. -f1,2)
 BASE_URL=$(echo $SELECTED_BUILD_INFO | cut -d, -f3)
 MACOS_VERSION=""
 
-if [[ "$MAJOR_VERSION" == "15."* ]]; then
+if [[ "$MAJOR_VERSION" == "26."* ]]; then
+    MACOS_VERSION="Tahoe"
+elif [[ "$MAJOR_VERSION" == "15."* ]]; then
     MACOS_VERSION="Sequoia"
 elif [[ "$MAJOR_VERSION" == "14."* ]]; then
     MACOS_VERSION="Sonoma"
@@ -132,7 +134,7 @@ fi
 
 # DOWNLOADING_INSTALLATION_FILES
 INSTALLATION_FILES=()
-if [[ $MACOS_VERSION == "Sequoia" ]] || [[ $MACOS_VERSION == "Sonoma" ]] || [[ "$MACOS_VERSION" == "Ventura" ]] || [[ "$MACOS_VERSION" == "Monterey" ]] || [[ "$MACOS_VERSION" == "BigSur" ]]; then
+if [[ $MACOS_VERSION == "Tahoe" ]] || [[ $MACOS_VERSION == "Sequoia" ]] || [[ $MACOS_VERSION == "Sonoma" ]] || [[ "$MACOS_VERSION" == "Ventura" ]] || [[ "$MACOS_VERSION" == "Monterey" ]] || [[ "$MACOS_VERSION" == "BigSur" ]]; then
     INSTALLATION_FILES=("InstallAssistant.pkg")
 else
     INSTALLATION_FILES=("BaseSystem.chunklist" "InstallInfo.plist" "AppleDiagnostics.dmg" "AppleDiagnostics.chunklist" "BaseSystem.dmg" "InstallESDDmg.pkg")
